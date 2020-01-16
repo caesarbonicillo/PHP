@@ -1,0 +1,10 @@
+Associative are not ordered. It's like looking through just the labels. 
+Key-Value Pair is how you find them.
+
+AA arrays are made just the same as normal arrays but its the contents that matter.
+
+<?php $assoc = array("first_name" => "Kevin, "last_name" => Skoglund"); ?>
+~this is a key value pair to call it you 
+
+<?php echo $assoc["first_name"]; ?>
+<?php echo $assoc["first_name"] . " " . $assoc["last_name"]; ?>
