@@ -1,0 +1,22 @@
+Basics in PHP
+
+Arrays
+<?php $mixed = array(6, "fox", "dog", array("x", "y", "z")); ?>
+~all this does is make an array and now there is an array in the array 
+<?php echo $mixed[2];?> 
+~this will print out "dog" 
+~<?php echo $mixed[3][1];?> 
+~this will print out "y"
+
+A good trick to see the contents of the array 
+
+<pre>
+<?php echo print_r($mixed);?>
+</pre>
+
+~this prints out the array and INDENTS it all very useful to see the array within the array.
+
+<?php mixed[2] = "cat"; ?> 
+~changes the [2] from "dog" to cat
+<?php mixed[] = "horse"; ?> 
+~appends to the end of array horse. 
