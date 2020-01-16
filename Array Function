@@ -1,0 +1,24 @@
+Functions you can do with an array
+
+Count <?php echo count($numbers); ?>
+Max value <?php echo max($numbers); ?>
+Min Value <?php echo min($numbers); ?>
+
+Sort <?php sort($numbers); ?>
+Reverse sort <?php rsort($numbers); ?>
+ 
+Really cool function 
+Implode <?php echo $num_string = implode (" * ", $numbers); ?>
+~turns list of numbers into a string, meaning it's now it can be indexed by exploding it.
+
+Explode <?php print_r(explode(" * ", $num_string)); ?>
+
+is 15 in array? <?php echo in_array(15, $numbers); ?> it returns true or false
+
+heres a conditional if statement
+
+if ( is_float($number) ) {
+  echo "It is a float.";
+}
+
+
